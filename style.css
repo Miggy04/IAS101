@@ -1,0 +1,161 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Changa&family=Orelega+One&family=Philosopher&family=Poppins:wght@100&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&family=Space+Mono&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header.main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header.main .logo{
+    position: relative;
+    max-width: 150px;
+}
+header.main ul{
+    position: relative;
+    display: flex;
+}
+header.main ul li{
+    list-style: none;
+}
+header.main ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    color: seagreen;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textBox p{
+    color: #333;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .image{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .image img{
+    max-width: 340px;
+}
+.flavor{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.flavor li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.flavor li:hover{
+    transform: translateY(-15px);
+}
+.flavor li img{
+    max-width: 60px;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: skyblue;
+    clip-path: circle(550px at right 800px);
+}
+header.flavor1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    color: rgb(34, 22, 85);
+    font-size: 65px;
+}
+.taste p.pos{
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 20%;
+    left: 45%;
+    font-size: 35px;
+    color: rgb(179, 73, 73);
+    font-family: 'Courier New', Courier, monospace;
+}
+.taste p{
+    position: absolute;
+    display: block;
+    top: 35%;
+    left: 45%;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+img.view{
+    position: relative;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
